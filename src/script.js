@@ -3,7 +3,7 @@
 // TODO - write your code here.
 
 const randomDamage = () => {
-    return Math.floor((Math.random() * 11));
+    return (Math.floor((Math.random() * 11) + 1));
 }
 
 // console.log(randomDamage());
